@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew app:compileDebugKotlin)",
+      "Read(//c/Program Files/Android/Android Studio/jbr/**)",
+      "Read(//c/Program Files/Java/**)",
+      "Read(//c/Users/Ditto_Admin/.gradle/wrapper/dists/**)",
+      "Bash(export JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\")",
+      "Bash(find app/src -name \"*.kt\" -exec sed -i 's/io\\\\.gingerr6\\\\.karooext/io.hammerhead.karooext/g' {} +)",
+      "Bash(sed -i 's/io\\\\.gingerr6\\\\.karooext/io.hammerhead.karooext/g' app/proguard-rules.pro)",
+      "Bash(./gradlew clean:*)",
+      "Bash(gh auth:*)",
+      "Bash(rm -rf lib/src/main/aidl/io/gingerr6)",
+      "Bash(rm -rf lib/src/main/kotlin/io/gingerr6)",
+      "Bash(where gh:*)",
+      "Bash(where winget:*)",
+      "Bash(winget install:*)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Read(//c/Program Files \\(x86\\)/GitHub CLI/**)",
+      "Read(//c/Users/Ditto_Admin/AppData/**)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(./gradlew app:assembleRelease)",
+      "Bash(gh release create v1.0.0 'app/build/outputs/apk/release/app-release.apk#stock-tracker.apk' 'app/manifest.json#manifest.json' 'app/src/main/res/drawable/icon.png#icon.png' --repo gingerr6/stock-tracker --title 'Stock Tracker v1.0.0' --notes ':*)",
+      "Bash(gh release:*)",
+      "Bash(gh repo:*)",
+      "Bash(curl -sI -L \"https://github.com/gingerr6/stock-tracker/releases/latest/download/app-release.apk\")",
+      "Bash(gh api:*)",
+      "Bash(export:*)"
+    ]
+  }
+}

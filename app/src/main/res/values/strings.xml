@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Stock Tracker</string>
+    <string name="custom_speed">Custom Speed</string>
+    <string name="extension_name">Stock Tracker</string>
+    <string name="custom_speed_description">Graphical representation of speed</string>
+    <string name="power_hr">Power x HR</string>
+    <string name="power_hr_description">Ratio of power / heart rate</string>
+    <string name="alert_title">Another one!</string>
+    <string name="alert_detail">You\'re at %1$s now.</string>
+    <string name="bespoke">Bespoke</string>
+    <string name="bespoke_description">Bespoke type from sample</string>
+    <string name="double_hr">2xHR</string>
+    <string name="double_hr_description">Double HR</string>
+    <string name="stock_price_description">Live stock price from Yahoo Finance</string>
+    <string name="stock_price_1">Stock 1</string>
+    <string name="stock_price_2">Stock 2</string>
+    <string name="stock_price_3">Stock 3</string>
+    <string name="stock_price_4">Stock 4</string>
+    <string name="stock_price_5">Stock 5</string>
+    <string name="stock_price_6">Stock 6</string>
+    <string name="stock_price_7">Stock 7</string>
+    <string name="stock_price_8">Stock 8</string>
+    <string name="stock_price_9">Stock 9</string>
+    <string name="stock_price_10">Stock 10</string>
+    <string name="stock_rolling">Stock Ticker</string>
+    <string name="stock_rolling_description">Cycles through all stocks every 5 seconds</string>
+    <string name="action_open">Open</string>
+    <string name="action_alert">Alert</string>
+    <string name="action_alert_desc">Bonus action alert</string>
+</resources>

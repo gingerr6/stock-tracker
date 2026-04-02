@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionInfo
+    displayName="@string/extension_name"
+    icon="@drawable/icon"
+    id="sample"
+    scansDevices="true"
+    mapLayer="true"
+    fitFile="true">
+    <DataType
+        description="@string/custom_speed_description"
+        displayName="@string/custom_speed"
+        graphical="true"
+        icon="@drawable/ic_speed"
+        typeId="custom-speed" />
+    <DataType
+        description="@string/bespoke_description"
+        displayName="@string/bespoke"
+        graphical="false"
+        icon="@drawable/icon"
+        typeId="bespoke" />
+    <DataType
+        description="@string/power_hr_description"
+        displayName="@string/power_hr"
+        graphical="false"
+        icon="@drawable/ic_power_hr"
+        typeId="power-hr" />
+    <DataType
+        description="@string/double_hr_description"
+        displayName="@string/double_hr"
+        graphical="false"
+        icon="@drawable/icon"
+        typeId="2hr" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_1"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-1" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_2"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-2" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_3"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-3" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_4"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-4" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_5"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-5" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_6"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-6" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_7"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-7" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_8"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-8" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_9"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-9" />
+    <DataType
+        description="@string/stock_price_description"
+        displayName="@string/stock_price_10"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-price-10" />
+    <DataType
+        description="@string/stock_rolling_description"
+        displayName="@string/stock_rolling"
+        graphical="true"
+        icon="@drawable/icon"
+        typeId="stock-rolling" />
+    <BonusAction
+        displayName="@string/action_open"
+        actionId="open" />
+    <BonusAction
+        displayName="@string/action_alert"
+        actionId="alert" />
+</ExtensionInfo>
